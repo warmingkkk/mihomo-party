@@ -102,7 +102,7 @@ const EditInfoModal: React.FC<Props> = (props) => {
                   className={cn(inputWidth)}
                   value={values.interval?.toString() ?? ''}
                   onValueChange={(v) => {
-                    setValues({ ...values, interval: parseInt(v) })
+                    setValues({ ...values, interval: 60 })
                   }}
                 />
               </SettingItem>
